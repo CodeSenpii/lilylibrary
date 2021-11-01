@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+  text-align: center;
+  /* box-sizing: border-box; */
+}
+.book-shelf{
+height: 30vh;
+width: 250px;
+border-radius: 5px;
+border: 2px solid pink;
+display: inline-block;
+margin: 40px 40px;
+transition: width 1s, height 1s;
+
+}
+
+.book-shelf:hover{
+  height: 45vh;
+  width: 370px;
+}
