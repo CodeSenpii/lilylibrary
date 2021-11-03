@@ -37,7 +37,7 @@ border-radius: 5px;
 border: 3px solid chocolate;
 display: inline-block;
 margin: 40px 40px;
-transition: width .400s, height .400s linear;
+/* transition: width 1s, height 1s ease-in-out; */
 position: relative;
 background-color: black;
 box-shadow: inset 0 0 1em 4px chocolate, inset 0 0 .4em 1px white;
@@ -54,7 +54,7 @@ padding: 1em  0.25em;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  transition: width 1s, height 1s, font-size 1s linear;
+  transition: width 1s, height 1s, font-size 0.400s ease-in-out;
   border-radius: 5px;
   border : 2px solid white;
   text-align: center;
@@ -67,9 +67,10 @@ padding: 1em  0.25em;
 .book-shelf:hover .b1{
   height: 35vh;
   width: 280px;
-  font-size: 1.2em;
 }
 .book-shelf:hover{
-  height: 45vh;
-  width: 370px;
+  /* height: 45vh;
+  width: 370px; */
+  transform:  translate(0, 0) scale(1.3, 1.3);
+  z-index: 2;
 }
