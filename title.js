@@ -49,7 +49,7 @@ coverInfo.sort((a, b) => {
 // var str = '<h1>The Last Man <br> Standing</h1><h2><span>by</span><br>Kelsey Mantooken</h2>';
 var tempHTML;
 
-
+// create the cover page title and author information
 coverInfo.forEach((e)=>{
   if(e.title2 === "" && e.title3 === ""){
 
