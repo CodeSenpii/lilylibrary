@@ -1,4 +1,6 @@
 //jshint esversion:8
+
+var coverHTML = [];
 const coverText = [
   {
     title1 : "The Last Man",
@@ -43,3 +45,23 @@ coverInfo.sort((a, b) => {
   }
   return 0;
 });
+
+// var str = '<h1>The Last Man <br> Standing</h1><h2><span>by</span><br>Kelsey Mantooken</h2>';
+var tempHTML;
+
+
+coverInfo.forEach((e)=>{
+  if(e.title2 === "" && e.title3 === ""){
+
+    tempHTML = `<h1>${e.title1}</h1><h2><span>by</span><br>${e.author}</h2>`;
+
+  } else if (e.title2 != "" && e.title3 === "") {
+    tempHTML = `<h1>${e.title1}<br>${e.title2}</h1><h2><span>by</span><br>${e.author}</h2>`;
+
+  }else{
+    tempHTML = `<h1>${e.title1}<br>${e.title2}<br>${e.title3}</h1><h2><span>by</span><br>${e.author}</h2>`;
+  }
+
+coverHTML.push(tempHTML);
+
+});// end foreach
