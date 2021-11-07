@@ -38,7 +38,7 @@ coverInfo.sort((a, b) => {
       fb = b.title1.toLowerCase();
 
   if (fa < fb){
-    return -1;
+    return -1; 
   }
   if (fa > fb){
     return 1;
