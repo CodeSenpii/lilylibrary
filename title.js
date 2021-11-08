@@ -38,7 +38,7 @@ coverInfo.sort((a, b) => {
       fb = b.title1.toLowerCase();
 
   if (fa < fb){
-    return -1; 
+    return -1;
   }
   if (fa > fb){
     return 1;
@@ -65,3 +65,16 @@ coverInfo.forEach((e)=>{
 coverHTML.push(tempHTML);
 
 });// end foreach
+
+var coverHTML_serialized = JSON.stringify(coverHTML);
+localStorage.setItem("coverList", coverHTML_serialized);
+
+// reverse the JSON stringyfy object
+// var coverList = JSON.parse(coverHTML_serialized);
+var fs = require('fs');
+
+fs.writeFile("title.txt", coverHTML_serialized, function(err){
+  if(err){
+    console.log(err);
+  }
+});
