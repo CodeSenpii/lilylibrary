@@ -73,6 +73,7 @@ localStorage.setItem("coverList", coverHTML_serialized);
 // var coverList = JSON.parse(coverHTML_serialized);
 var fs = require('fs');
 
+//save the json file to a text file
 fs.writeFile("title.txt", coverHTML_serialized, function(err){
   if(err){
     console.log(err);
