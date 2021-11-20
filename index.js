@@ -2,10 +2,23 @@
 
 window.addEventListener('DOMContentLoaded', setup);
 
+
 function setup(){
-
+  var counter = 0;
   var cubby = document.getElementsByClassName('b1');
-  cubby[0].innerHTML = coverHTML[2];
+  var bookLinks = document.querySelectorAll('.book-shelf a');
 
+
+
+  coverHTML.forEach((e)=>{
+      // set cover text
+      cubby[counter].innerHTML = e;
+
+      // set links
+      if(links[counter] != ""){
+        bookLinks[counter].setAttribute('href', links[counter]);
+      }
+      counter++;
+  });
 
 }

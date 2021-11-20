@@ -13,25 +13,53 @@ body{
 
 
 h1{
-  font-size: 1.6em;
+  font-size: 1.5em;
   color: black;
   font-family: "Times New Roman" , sans-serif;
+  /* margin-bottom: 0; */
+  position: absolute;
+  top:20%;
+  left:50%;
+  transform: translate(-50%, -50%);
 }
+
+
+h2{
+  color: black;
+  font-weight: 200;
+  font-size: 1em;
+  margin: 2px 0 0;
+  position: absolute;
+  top: 80%;
+  left:50%;
+  transform: translate(-50%, -50%);
+
+  /* transform: translateX(50%); */
+}
+
+ span{
+  color: chocolate;
+  font-size: 0.7em;
+  position: absolute;
+  top: -10%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
 .page-title{
   /* color: saddlebrown; */
   /* color: darkred; */
   color: #FFF5EE;
   transform: perspective(2em) rotateX(-15deg) scale(1.1, 1.1);
+  position: absolute;
+  top:1%;
+  left: 45%;
+  /* transform: translate(-50%, -50%); */
 }
 
-h2{
-  color: black;
-  margin: 0;
-}
+.title2{
+  top: 5%;
 
- span{
-  color: gray;
-  font-size: 0.7em;
 }
 .book-shelf{
 height: 30vh;
@@ -60,8 +88,8 @@ padding: 1em  0.25em;
   transition: width 1s, height 1s, font-size 0.400s ease-in-out;
   border-radius: 5px;
   border : 2px solid white;
-  text-align: center;
   box-shadow: 0 0 0.5em 0 white;
+
 }
 .titles{
   margin:0;
