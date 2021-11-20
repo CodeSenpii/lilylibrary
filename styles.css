@@ -82,7 +82,7 @@ padding: 1em  0.25em;
   background-image: url("bkg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
