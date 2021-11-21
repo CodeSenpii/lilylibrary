@@ -11,19 +11,19 @@ const coverText = [
     link : "https://codesenpii.github.io/story0/"
   },
   {
-    title1: "Angel",
-    title2 : "-",
+    title1: "I Love to",
+    title2 : "Dance",
     title3 : "-",
-    author : "Kie Parh",
+    author : "Kieyn ParKs",
     date : "",
-    link : ""
+    link : " https://codesenpii.github.io/rotate_slider/"
 
   },
   {
     title1: "The Final Battle",
     title2 : "-",
     title3 : "-",
-    author : "Kie Parh",
+    author : "Kieyn Parks",
     date : "",
     link : "https://codesenpii.github.io/lily-library/"
   }
