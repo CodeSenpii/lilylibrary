@@ -79,9 +79,10 @@ padding: 1em  0.25em;
 .b1{
   height: 25vh;
   width: 200px;
-  background-image: url("bkg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  /* background-image: url("bkg.jpg"); */
+  background-image: linear-gradient( tomato,  orange);
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
   position: absolute;
   top: 50%;
   left: 50%;
