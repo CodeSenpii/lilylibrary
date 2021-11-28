@@ -8,6 +8,7 @@ body{
   background-position: center;
   text-align: center;
   color: none;
+  user-select: none;
   /* overflow: hidden; */
 }
 
