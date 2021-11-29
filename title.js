@@ -26,6 +26,14 @@ const coverText = [
     author : "Kieyn Parks",
     date : "",
     link : "https://codesenpii.github.io/lily-library/"
+  },
+  {
+    title1: "Spirit",
+    title2 : "of",
+    title3 : "The Woods",
+    author : "Kieyn Parks",
+    date : "",
+    link : "https://codesenpii.github.io/story1/"
   }
 ];
 
