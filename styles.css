@@ -37,6 +37,10 @@ h2{
 
   /* transform: translateX(50%); */
 }
+header{
+  margin-bottom: 2em;
+  width: 100vw;
+}
 
  span{
   color: chocolate;
@@ -47,6 +51,7 @@ h2{
   transform: translate(-50%, -50%);
 }
 
+
 .page-title{
   /* color: saddlebrown; */
   /* color: darkred; */
@@ -54,15 +59,16 @@ h2{
   transform: perspective(2em) rotateX(-15deg) scale(1.1, 1.1);
   position: absolute;
   top:1%;
-  left: 45%;
+  left: 40%;
   /* transform: translate(-50%, -50%); */
 }
 
 .title2{
   top: 5%;
   /* color: lightgreen; */
-
+  left: 35%;
 }
+
 .book-shelf{
 height: 30vh;
 width: 250px;
@@ -94,6 +100,11 @@ padding: 1em  0.25em;
   box-shadow: 0 0 0.5em 0 white;
 
 }
+.companyInfo{
+  position: absolute;
+  bottom: 0px;
+  margin-top: 15px;
+}
 .titles{
   margin:0;
   padding: 0;
@@ -111,4 +122,26 @@ padding: 1em  0.25em;
 
 .footer-info{
   position: relative;
+  height: 30px;
+  padding: 0;
+}
+
+.writer{
+  position: absolute;
+  top: 1%;
+
+}
+.writer button{
+  height: 3em;
+  border-radius: 10px;
+  border: 1px solid chocolate;
+  border-style:groove;
+  background-color: transparent;
+  color: chocolate;
+  cursor: pointer;
+}
+
+.writer button:hover{
+  color: white;
+  background-color: chocolate;
 }
