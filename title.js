@@ -14,7 +14,7 @@ const coverText = [
     title1: "I Love to",
     title2 : "Dance",
     title3 : "-",
-    author : "Kieyn ParKs",
+    author : "Mary Kate",
     date : "",
     link : " https://codesenpii.github.io/rotate_slider/"
 
@@ -31,7 +31,7 @@ const coverText = [
     title1: "Spirit",
     title2 : "of",
     title3 : "The Woods",
-    author : "Kieyn Parks",
+    author : "Silvia Raynolds",
     date : "",
     link : "https://codesenpii.github.io/story1/"
   }
