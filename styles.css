@@ -105,6 +105,7 @@ padding: 1em  0.25em;
   bottom: 0px;
   margin-top: 15px;
 }
+
 .titles{
   margin:0;
   padding: 0;
@@ -131,7 +132,7 @@ padding: 1em  0.25em;
   top: 1%;
 
 }
-.writer button{
+.add-story{
   height: 3em;
   border-radius: 10px;
   border: 1px solid chocolate;
@@ -141,7 +142,7 @@ padding: 1em  0.25em;
   cursor: pointer;
 }
 
-.writer button:hover{
+.add-story:hover{
   color: white;
   background-color: chocolate;
 }
