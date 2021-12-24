@@ -131,6 +131,7 @@ padding: 1em  0.25em;
 .writer{
   position: absolute;
   top: 1%;
+  left: 10px;
 
 }
 .add-story{
