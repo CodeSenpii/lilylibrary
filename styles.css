@@ -51,6 +51,11 @@ header{
   transform: translate(-50%, -50%);
 }
 
+.my-story{
+  position: absolute;
+  top: 1%;
+  right: 10px;
+}
 
 .page-title{
   /* color: saddlebrown; */
@@ -147,4 +152,28 @@ padding: 1em  0.25em;
 .add-story:hover{
   color: white;
   background-color: chocolate;
+  opacity: 0.5
+}
+.demo{
+  position: absolute;
+  /* width: 100px; */
+  /* height: 100px; */
+  /* background-color: yellow; */
+  left: 10px;
+  /* border: 2px solid white; */
+
+
+}
+.demo a{
+  position: absolute;
+  text-decoration: none;
+  color: brown;
+  font-weight: bolder;
+
+}
+
+@media (max-width: 600px) {
+  .my-story{
+    display: none;
+  }
 }
