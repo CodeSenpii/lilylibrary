@@ -8,7 +8,7 @@ const coverText = [
     title3 : "-",
     author : "Kieyn Parks",
     date : "",
-    link : "https://codesenpii.github.io/story0/"
+    link : "https://uberstory.lilylibrary.com//"
   },
   {
     title1: "I Love to",
@@ -16,7 +16,7 @@ const coverText = [
     title3 : "-",
     author : "Mary Kate",
     date : "",
-    link : " https://codesenpii.github.io/rotate_slider/"
+    link : " https://iliketodance.lilylibrary.com/"
 
   },
   {
@@ -25,7 +25,7 @@ const coverText = [
     title3 : "-",
     author : "Kieyn Parks",
     date : "",
-    link : "https://codesenpii.github.io/lily-library/"
+    link : "https://thefinalbattle.lilylibrary.com/"
   },
   {
     title1: "Spirit",
@@ -33,7 +33,55 @@ const coverText = [
     title3 : "The Woods",
     author : "Silvia Raynolds",
     date : "",
-    link : "https://codesenpii.github.io/story1/"
+    link : "https://spiritofthewoods.lilylibrary.com/"
+  },
+  {
+    title1: "Zbubble",
+    title2 : "-",
+    title3 : "Game",
+    author : "Danlily.ai Studios",
+    date : "",
+    link : "https://zbubble.lilylibrary.com"
+  },
+  {
+    title1: "Zsnake",
+    title2 : "-",
+    title3 : "Game",
+    author : "FARIAT Codepen",
+    date : "",
+    link : "https://snake.lilylibrary.com"
+  },
+  {
+    title1: "Zcube",
+    title2 : "Smash",
+    title3 : "Game",
+    author : "Veer Nakum - Codepen",
+    date : "",
+    link : "https://cubesmash.lilylibrary.com "
+  },
+  {
+    title1: "Zcolor",
+    title2 : "Blast",
+    title3 : "Game",
+    author : "Nate Wiley - Codepen",
+    date : "",
+    link : "https://colorblast.lilylibrary.com "
+  },
+  {
+    title1: "Zplanet",
+    title2 : "Defense",
+    title3 : "Game",
+    author : "Marc Lopez Avila - Codepen",
+    date : "",
+    link : "https://planetdefense.lilylibrary.com"
+  },
+  {
+    title1: "Zflip Card",
+    title2 : "Memory",
+    title3 : "Game",
+    author : "M Gopal- Codepen",
+    date : "",
+    link : "https://flipcardmemory.lilylibrary.com"
   }
 ];
 
