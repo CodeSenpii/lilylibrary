@@ -29,9 +29,12 @@ function setup(){
       cubby[counter].innerHTML = e;
 
       // set links
-      if(links[counter] != ""){
+      if(links[counter] != "" && game[counter] === false){
         bookLinks[counter].setAttribute('href', links[counter]);
-        bookShelf[counter].style.backgroundColor = 'burlywood';
+        bookShelf[counter].style.backgroundColor = 'lightgreen';
+      }else if(links[counter] != "" && game[counter] === true){
+        bookLinks[counter].setAttribute('href', links[counter]);
+        bookShelf[counter].style.backgroundColor = 'blue';
       }
       counter++;
   });

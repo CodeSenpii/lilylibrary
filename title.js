@@ -55,7 +55,7 @@ const coverText = [
     title1: "Zcube",
     title2 : "Smash",
     title3 : "Game",
-    author : "Veer Nakum - Codepen",
+    author : "Veer Nakum - Codepen ",
     date : "",
     link : "https://cubesmash.lilylibrary.com "
   },
@@ -105,6 +105,7 @@ coverInfo.sort((a, b) => {
 // var str = '<h1>The Last Man <br> Standing</h1><h2><span>by</span><br>Kelsey Mantooken</h2>';
 var tempHTML;
 var links = [];
+var game = [];
 
 // create the cover page title and author information
 coverInfo.forEach((e)=>{
@@ -121,6 +122,11 @@ coverInfo.forEach((e)=>{
 
 coverHTML.push(tempHTML);
 links.push(e.link);
+if(e.title3 === "Game"){
+  game.push(true);
+}else{
+  game.push(false);
+}
 
 });// end foreach
 
