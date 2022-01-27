@@ -36,6 +36,14 @@ const coverText = [
     link : "https://spiritofthewoods.lilylibrary.com/"
   },
   {
+    title1: "School",
+    title2 : "Day",
+    title3 : "-",
+    author : "Micheal Shea",
+    date : "",
+    link : "https://schoolday.lilylibrary.com/"
+  },
+  {
     title1: "Zbubble",
     title2 : "-",
     title3 : "Game",
