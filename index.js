@@ -31,7 +31,7 @@ function setup(){
       // set links
       if(links[counter] != "" && game[counter] === false){
         bookLinks[counter].setAttribute('href', links[counter]);
-        bookShelf[counter].style.backgroundColor = 'lightgreen';
+        bookShelf[counter].style.backgroundColor = 'lightyellow';
       }else if(links[counter] != "" && game[counter] === true){
         bookLinks[counter].setAttribute('href', links[counter]);
         bookShelf[counter].style.backgroundColor = 'blue';
