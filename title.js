@@ -44,6 +44,14 @@ const coverText = [
     link : "https://schoolday.lilylibrary.com/"
   },
   {
+    title1: "The Great",
+    title2 : "Light",
+    title3 : "-",
+    author : "Kim Deltoro",
+    date : "",
+    link : "https://thegreatlight.lilylibrary.com/"
+  },
+  {
     title1: "Zbubble",
     title2 : "-",
     title3 : "Game",
