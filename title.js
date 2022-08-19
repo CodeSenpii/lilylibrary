@@ -52,6 +52,14 @@ const coverText = [
     link : "https://thegreatlight.lilylibrary.com/"
   },
   {
+    title1: "I Washed",
+    title2 : "Up On",
+    title3 : "An Island",
+    author : "Daniel Parks",
+    date : "",
+    link : "https://castaway.lilylibrary.com/"
+  },
+  {
     title1: "Zbubble",
     title2 : "-",
     title3 : "Game",
