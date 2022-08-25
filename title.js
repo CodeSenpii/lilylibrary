@@ -54,7 +54,7 @@ const coverText = [
   {
     title1: "I Washed",
     title2 : "Up On",
-    title3 : "An Island",
+    title3 : "An Island #1",
     author : "Daniel Parks",
     date : "",
     link : "https://castaway.lilylibrary.com/"
