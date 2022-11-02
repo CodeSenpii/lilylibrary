@@ -60,6 +60,14 @@ const coverText = [
     link : "https://castaway.lilylibrary.com/"
   },
   {
+    title1: "Snow Day",
+    title2 : "-",
+    title3 : "-",
+    author : "Kevin Papas",
+    date : "",
+    link : "https://snowday.lilylibrary.com"
+  },
+  {
     title1: "Zbubble",
     title2 : "-",
     title3 : "Game",
@@ -107,6 +115,7 @@ const coverText = [
     date : "",
     link : "https://flipcardmemory.lilylibrary.com"
   }
+
 ];
 
 // Sort an Array of Objects in JavaScript
