@@ -20,6 +20,14 @@ const coverText = [
 
   },
   {
+    title1: "Blue Lake",
+    title2 : "-",
+    title3 : "-",
+    author : "Kelly Simon",
+    date : "11-7-2022",
+    link : "https://bluelake.lilylibrary.com/"
+  },
+  {
     title1: "The Final Battle",
     title2 : "-",
     title3 : "-",
