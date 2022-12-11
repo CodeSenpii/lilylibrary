@@ -5,7 +5,7 @@ window.addEventListener('DOMContentLoaded', setup);
 
 function setup(){
 
-    var color_code0 = ['yellow', 'red', 'pink', 'blue', 'lightgrey'];
+    var color_code0 = ['yellow', 'red', 'pink', 'azure', 'lightgrey'];
     var color_code1 = ['tomato', 'brown', 'cyan', 'aqua', 'chocolate'];
 
 
