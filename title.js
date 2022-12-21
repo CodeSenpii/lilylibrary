@@ -68,6 +68,14 @@ const coverText = [
     link : "https://castaway.lilylibrary.com/"
   },
   {
+    title1: "Paper",
+    title2 : "Airplane",
+    title3 : "-",
+    author : "Luv Parker",
+    date : "",
+    link : "https://paperplane.lilylibrary.com/"
+  },
+  {
     title1: "Snow Day",
     title2 : "-",
     title3 : "-",
