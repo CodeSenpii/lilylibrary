@@ -8,7 +8,8 @@ const coverText = [
     title3 : "-",
     author : "Kieyn Parks",
     date : "",
-    link : "https://uberstory.lilylibrary.com//"
+    link : "https://uberstory.lilylibrary.com//",
+    status : "old"
   },
   {
     title1: "I Love to",
@@ -16,7 +17,8 @@ const coverText = [
     title3 : "-",
     author : "Mary Kate",
     date : "",
-    link : " https://iliketodance.lilylibrary.com/"
+    link : " https://iliketodance.lilylibrary.com/",
+    status : "old"
 
   },
   {
@@ -25,7 +27,8 @@ const coverText = [
     title3 : "-",
     author : "Kelly Simon",
     date : "11-7-2022",
-    link : "https://bluelake.lilylibrary.com/"
+    link : "https://bluelake.lilylibrary.com/",
+    status : "new"
   },
   {
     title1: "The Final Battle",
@@ -33,7 +36,8 @@ const coverText = [
     title3 : "-",
     author : "Kieyn Parks",
     date : "",
-    link : "https://thefinalbattle.lilylibrary.com/"
+    link : "https://thefinalbattle.lilylibrary.com/",
+    status : "old"
   },
   {
     title1: "Spirit",
@@ -41,7 +45,8 @@ const coverText = [
     title3 : "The Woods",
     author : "Silvia Raynolds",
     date : "",
-    link : "https://spiritofthewoods.lilylibrary.com/"
+    link : "https://spiritofthewoods.lilylibrary.com/",
+    status : "old"
   },
   {
     title1: "School",
@@ -49,7 +54,8 @@ const coverText = [
     title3 : "-",
     author : "Micheal Shea",
     date : "",
-    link : "https://schoolday.lilylibrary.com/"
+    link : "https://schoolday.lilylibrary.com/",
+    status : "old"
   },
   {
     title1: "The Great",
@@ -57,7 +63,8 @@ const coverText = [
     title3 : "-",
     author : "Kim Deltoro",
     date : "",
-    link : "https://thegreatlight.lilylibrary.com/"
+    link : "https://thegreatlight.lilylibrary.com/",
+    status : "old"
   },
   {
     title1: "I Washed",
@@ -65,15 +72,17 @@ const coverText = [
     title3 : "An Island #1",
     author : "Daniel Parks",
     date : "",
-    link : "https://castaway.lilylibrary.com/"
+    link : "https://castaway.lilylibrary.com/",
+    status : "old"
   },
   {
     title1: "Paper",
-    title2 : "Airplane",
-    title3 : "-",
+    title2 : "-",
+    title3 : "Airplane",
     author : "Luv Parker",
-    date : "",
-    link : "https://paperplane.lilylibrary.com/"
+    date : "12-20-2022",
+    link : "https://paperplane.lilylibrary.com/",
+    status : "new"
   },
   {
     title1: "Snow Day",
@@ -81,7 +90,8 @@ const coverText = [
     title3 : "-",
     author : "Kevin Papas",
     date : "",
-    link : "https://snowday.lilylibrary.com"
+    link : "https://snowday.lilylibrary.com",
+    status : "old"
   },
   {
     title1: "Zbubble",
@@ -89,7 +99,8 @@ const coverText = [
     title3 : "Game",
     author : "Danlily.ai Studios",
     date : "",
-    link : "https://zbubble.lilylibrary.com"
+    link : "https://zbubble.lilylibrary.com",
+    status : "old"
   },
   {
     title1: "Zsnake",
@@ -97,7 +108,8 @@ const coverText = [
     title3 : "Game",
     author : "FARIAT Codepen",
     date : "",
-    link : "https://snake.lilylibrary.com"
+    link : "https://snake.lilylibrary.com",
+    status : "old"
   },
   {
     title1: "Zcube",
@@ -105,7 +117,8 @@ const coverText = [
     title3 : "Game",
     author : "Veer Nakum - Codepen ",
     date : "",
-    link : "https://cubesmash.lilylibrary.com "
+    link : "https://cubesmash.lilylibrary.com",
+    status : "old"
   },
   {
     title1: "Zcolor",
@@ -113,7 +126,8 @@ const coverText = [
     title3 : "Game",
     author : "Nate Wiley - Codepen",
     date : "",
-    link : "https://colorblast.lilylibrary.com "
+    link : "https://colorblast.lilylibrary.com",
+    status : "old"
   },
   {
     title1: "Zplanet",
@@ -121,7 +135,8 @@ const coverText = [
     title3 : "Game",
     author : "Marc Lopez Avila - Codepen",
     date : "",
-    link : "https://planetdefense.lilylibrary.com"
+    link : "https://planetdefense.lilylibrary.com",
+    status : "old"
   },
   {
     title1: "Zflip Card",
@@ -129,7 +144,8 @@ const coverText = [
     title3 : "Game",
     author : "M Gopal- Codepen",
     date : "",
-    link : "https://flipcardmemory.lilylibrary.com"
+    link : "https://flipcardmemory.lilylibrary.com",
+    status : "old"
   }
 
 ];
