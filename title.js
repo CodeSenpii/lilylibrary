@@ -12,6 +12,15 @@ const coverText = [
     status : "old"
   },
   {
+    title1: "Hunting",
+    title2 : "With",
+    title3 : "GrandFather",
+    author : "Daniel Parks",
+    date : "12-26-2022",
+    link : "https://hunting.lilylibrary.com/",
+    status : "new"
+  },
+  {
     title1: "I Love to",
     title2 : "Dance",
     title3 : "-",
@@ -100,15 +109,6 @@ const coverText = [
     author : "Danlily.ai Studios",
     date : "",
     link : "https://zbubble.lilylibrary.com",
-    status : "old"
-  },
-  {
-    title1: "Zsnake",
-    title2 : "-",
-    title3 : "Game",
-    author : "FARIAT Codepen",
-    date : "",
-    link : "https://snake.lilylibrary.com",
     status : "old"
   },
   {

@@ -73,18 +73,23 @@ header{
 }
 
 .card{
-  width: 10rem;
-  height: 5rem;
+  width: 8rem;
+  height: 4rem;
   display: inline-block;
-  scale:0.5;
+  /* scale:0.5; */
+  padding: 0;
+
   /* background: yellow; */
+}
+.card-title{
+  margin:0;
 }
 .card-img-top{
   height: 80px;
 }
 
 #new{
-  height: 19vh;
+  height: 32vh;
   width: 100%;
   background-color: inherit;
   opacity: 0.7;
