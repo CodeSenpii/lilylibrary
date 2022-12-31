@@ -21,6 +21,15 @@ const coverText = [
     status : "new"
   },
   {
+    title1: "Last",
+    title2 : "-",
+    title3 : "Dragon",
+    author : "Kavel Kar",
+    date : "12-21-2022",
+    link : "https://lastdragon.lilylibrary.com/",
+    status : "new"
+  },
+  {
     title1: "I Love to",
     title2 : "Dance",
     title3 : "-",
@@ -37,7 +46,7 @@ const coverText = [
     author : "Kelly Simon",
     date : "11-7-2022",
     link : "https://bluelake.lilylibrary.com/",
-    status : "new"
+    status : "old"
   },
   {
     title1: "The Final Battle",
@@ -91,7 +100,7 @@ const coverText = [
     author : "Luv Parker",
     date : "12-20-2022",
     link : "https://paperplane.lilylibrary.com/",
-    status : "new"
+    status : "old"
   },
   {
     title1: "Snow Day",
