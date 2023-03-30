@@ -22,6 +22,10 @@ function setup(){
       cubby[x].style.backgroundImage = 'linear-gradient('+ color_code0[color1] +', '+ color_code1[color2] +')';
     }
 
+    for(var y = 0; y < cubby.length; y++){
+      cubby[y].style.backgroundImage = 'url(' + backgroundImages[y] + ')';
+    }
+
 
 
   coverHTML.forEach((e)=>{
@@ -34,7 +38,7 @@ function setup(){
         bookShelf[counter].style.backgroundColor = 'lightyellow';
       }else if(links[counter] != "" && game[counter] === true){
         bookLinks[counter].setAttribute('href', links[counter]);
-        bookShelf[counter].style.backgroundColor = 'blue';
+        bookShelf[counter].style.backgroundColor = 'lightgreen';
       }
       counter++;
   });
