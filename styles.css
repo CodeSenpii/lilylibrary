@@ -72,6 +72,11 @@ header{
   transform: translate(-50%, -50%);
 }
 
+.youTubeImg{
+  height: 80px;
+
+}
+
 .card{
   width: 8rem;
   height: 4rem;
@@ -100,7 +105,8 @@ header{
 
 
 #new{
-  height: 32vh;
+  height: 30vh;
+  min-height: 220px;
   width: 100%;
   /* background-color: inherit; */
   opacity: 0.7;
@@ -139,7 +145,7 @@ header{
   color: #FFF5EE;
   background-color: black;
 
-  font-size: calc(1em + 1vw);
+  font-size: calc(1em + 0.7vw);
   top:3%;
   left: 50%;
 
@@ -185,6 +191,9 @@ header{
   .page-title{
     font-size: 1.5em;
   }
+  #new{
+    min-height: 150px;
+  }
 
 
 }
@@ -207,6 +216,7 @@ z-index: 3;
 .b1{
   height: 25vh;
   width: 200px;
+  background-color: transparent;
   /* background-image: url("bkg.jpg"); */
   /* background-image: linear-gradient( tomato,  orange); */
   background-size: cover;
