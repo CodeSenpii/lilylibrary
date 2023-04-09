@@ -220,6 +220,7 @@ z-index: 3;
   /* background-image: url("bkg.jpg"); */
   /* background-image: linear-gradient( tomato,  orange); */
   background-size: cover;
+  /* object-fit: cover; */
   background-repeat: no-repeat;
   position: absolute;
   top: 50%;
