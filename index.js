@@ -38,7 +38,7 @@ function setup(){
         bookShelf[counter].style.backgroundColor = 'lightyellow';
       }else if(links[counter] != "" && game[counter] === true){
         bookLinks[counter].setAttribute('href', links[counter]);
-        bookShelf[counter].style.backgroundColor = 'lightgreen';
+        bookShelf[counter].style.backgroundColor = 'red';
       }
       counter++;
   });

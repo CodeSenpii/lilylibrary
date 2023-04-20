@@ -181,6 +181,17 @@ const coverText = [
     coverImage : "images/bubbles.jpg"
   },
   {
+    title1: "Under",
+    title2 : "Construction",
+    title3 : "Game",
+    author : "Danlily.ai Studios",
+    date : "",
+    link : "https://hatch.lilylibrary.com",
+    status : "new",
+    type : "game",
+    coverImage : "images/egg.jpg"
+  },
+  {
     title1: "Raven",
     title2 : "Hunter",
     title3 : "Game",
