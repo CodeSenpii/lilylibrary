@@ -257,6 +257,17 @@ const coverText = [
     status : "old",
     type : "game",
     coverImage : "images/flipcard.jpg"
+  },
+  {
+    title1: "Space Invaders",
+    title2 : "-",
+    title3 : "Game",
+    author : "DanLily.ai",
+    date : "",
+    link : "https://invaders.lilylibrary.com",
+    status : "new",
+    type : "game",
+    coverImage : "images/invaders.jpg"
   }
 
 ];
