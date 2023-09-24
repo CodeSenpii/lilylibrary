@@ -200,7 +200,7 @@ const coverText = [
     link : "https://raven-hunter.lilylibrary.com",
     status : "old",
     type : "game",
-    coverImage : "images/raven.jpg"
+    coverImage : "images/raven1.jpg"
   },
   {
     title1: "Big Fish",
