@@ -170,6 +170,17 @@ const coverText = [
     coverImage : "images/snow.jpg"
   },
   {
+    title1: " Annie",
+    title2 : "and",
+    title3 : "Max",
+    author : "Kie Pa",
+    date : "10-13-2023",
+    link : "https://annieandmax.lilylibrary.com",
+    status : "new",
+    type : "book",
+    coverImage : "images/catsTwologo.png"
+  },
+  {
     title1: "bubble",
     title2 : "-",
     title3 : "Game",
@@ -181,13 +192,13 @@ const coverText = [
     coverImage : "images/bubbles.jpg"
   },
   {
-    title1: "Under",
-    title2 : "Construction",
+    title1: "Hatch",
+    title2 : "-",
     title3 : "Game",
     author : "Danlily.ai Studios",
     date : "",
     link : "https://hatch.lilylibrary.com",
-    status : "new",
+    status : "old",
     type : "game",
     coverImage : "images/egg.jpg"
   },
@@ -200,7 +211,7 @@ const coverText = [
     link : "https://raven-hunter.lilylibrary.com",
     status : "old",
     type : "game",
-    coverImage : "images/raven1.jpg"
+    coverImage : "images/raven1.JPG"
   },
   {
     title1: "Big Fish",
