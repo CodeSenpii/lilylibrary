@@ -44,7 +44,7 @@ const coverText = [
     date : "",
     link : " https://iliketodance.lilylibrary.com/",
     status : "old",
-    type : "book",
+    type : "kidbook",
     coverImage : "images/dance.jpg"
 
   },
@@ -133,7 +133,7 @@ const coverText = [
     date : "",
     link : "https://thegreatlight.lilylibrary.com/",
     status : "old",
-    type : "book",
+    type : "kidbook",
     coverImage : "images/greatlight.jpg"
   },
   {
@@ -177,7 +177,7 @@ const coverText = [
     date : "10-13-2023",
     link : "https://annieandmax.lilylibrary.com",
     status : "new",
-    type : "book",
+    type : "kidbook",
     coverImage : "images/catsTwologo.png"
   },
   {
@@ -304,6 +304,7 @@ coverInfo.sort((a, b) => {
 var tempHTML;
 var links = [];
 var game = [];
+var kidbook = [];
 var backgroundImages = [];
 
 // create the cover page title and author information
@@ -326,6 +327,11 @@ if(e.title3 === "Game"){
   game.push(true);
 }else{
   game.push(false);
+}
+if(e.type === "kidbook"){
+  kidbook.push(true);
+}else{
+  kidbook.push(false);
 }
 
 });// end foreach
