@@ -159,6 +159,17 @@ const coverText = [
     coverImage : "images/paperplane.jpg"
   },
   {
+  title1: " Best",
+  title2 : "-",
+  title3 : "Friends",
+  author : "Lily Parks",
+  date : "10-31-2023",
+  link : "https://bestfriends.lilylibrary.com/",
+  status : "new",
+  type : "book",
+  coverImage : "images/boysplay.png"
+},
+  {
     title1: " Snow Day",
     title2 : "-",
     title3 : "-",
