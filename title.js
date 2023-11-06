@@ -159,6 +159,17 @@ const coverText = [
     coverImage : "images/paperplane.jpg"
   },
   {
+  title1: " Night",
+  title2 : "-",
+  title3 : "Sky",
+  author : "Jen Parks",
+  date : "11-05-2023",
+  link : "https://nightsky.lilylibrary.com/",
+  status : "new",
+  type : "kidbook",
+  coverImage : "images/dreams.png"
+},
+  {
   title1: " Best",
   title2 : "-",
   title3 : "Friends",
