@@ -131,6 +131,80 @@ header{
   filter: blur(5px);
   z-index: -1;
 } */
+.container{
+  display: flex;
+  gap:0.4rem;
+  flex-wrap: wrap;
+  padding:0;
+  background: none;
+
+}
+.newbooks{
+  position: relative;
+  margin: 0;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 10em;
+  height: 10em;
+  flex-grow: 1;
+  border-radius: 10px;
+  background: linear-gradient(135deg, rgba(255, 225, 225, 0.1),rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(0 , 0, 0, 0.37);
+}
+.new-image{
+  position: absolute;
+  width: 10em;
+  height: 4em;
+  background-color: blue;
+  top: 26%;
+  left:50%;
+  translate: -50% -50%;
+  border-radius: 10px;
+
+}
+.new-image > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  /* object-fit: cover; */
+}
+.new-title{
+
+  color: white;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  translate: -50% -50%;
+}
+
+.new-title h6{
+  font-size: 0.9em;
+  color: black;
+  font-weight: bolder;
+}
+
+.nb{
+  background: skyblue;
+
+  font-weight: bolder;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  translate: -50% -50%;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+
+.nb a{
+  text-decoration: none;
+  color: blue;
+  z-index: 1000;
+
+}
+
+
 
 
 .my-story{
@@ -144,6 +218,7 @@ header{
   position: absolute;
   color: #FFF5EE;
   background-color: black;
+
 
   font-size: calc(1em + 0.7vw);
   top:3%;
