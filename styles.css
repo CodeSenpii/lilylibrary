@@ -431,6 +431,7 @@ z-index: 3;
   }
 
   .book-shelf{
-    margin-left: 10px;
+    margin: auto;
+    margin-top: 20px;
   }
 }
