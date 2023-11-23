@@ -252,7 +252,7 @@ const coverText = [{
     author: "Danlily.ai Studios",
     date: "3-21-2023",
     link: "https://bigfish.lilylibrary.com",
-    status: "new",
+    status: "old",
     type: "game",
     coverImage: "images/fish.jpg"
   },

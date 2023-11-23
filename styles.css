@@ -186,7 +186,7 @@ header{
 
 .nb{
   background: skyblue;
-
+  font-size: 0.9em;
   font-weight: bolder;
   position: absolute;
   top: 90%;
