@@ -7,6 +7,9 @@ function setup(){
 
     var color_code0 = ['yellow', 'red', 'pink', 'azure', 'lightgrey'];
     var color_code1 = ['tomato', 'brown', 'cyan', 'aqua', 'chocolate'];
+    var video_file = ['test2.mp4', 'test.mp4'];
+
+    var video_index = Math.floor(Math.random() * 2);
 
 
     var color1 = Math.floor(Math.random() * 5);
@@ -16,6 +19,19 @@ function setup(){
     var cubby = document.getElementsByClassName('b1');
     var bookLinks = document.querySelectorAll('.book-shelf a');
     var bookShelf = document.querySelectorAll('.book-shelf');
+    var close_video = document.getElementsByClassName('close-video');
+    var popup = document.getElementsByClassName('popup');
+    var popup_video = document.querySelectorAll('.popup-video video');
+    
+    popup_video[0].setAttribute('src', 'vids/'+video_file[video_index]);
+    
+
+    close_video[0].addEventListener('click', function() {
+
+      popup[0].style.display = 'none';
+
+    });
+
 
 
     for(var x = 0; x < cubby.length; x++){
