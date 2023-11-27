@@ -7,9 +7,13 @@ function setup(){
 
     var color_code0 = ['yellow', 'red', 'pink', 'azure', 'lightgrey'];
     var color_code1 = ['tomato', 'brown', 'cyan', 'aqua', 'chocolate'];
-    var video_file = ['test2.mp4', 'test.mp4'];
+    var video_file = ['hunting1.mp4', 'lake.mp4', 'explosion1.mp4', 'bestfriends.mp4',
+  'castaway.mp4', 'dragon1.mp4', 'schoolday.mp4', 'wizard.mp4'];
+    var video_title = ['Book - Hunting With Grandfather', 'Book - Blue Lake', 'Book - Blue Lake 2',
+                       'Book - Best Friends', 'Book - Washed Up On An Island', 'Book - Last Dragon',
+                     'Book - School Day', 'Book - Magic Academy'];
 
-    var video_index = Math.floor(Math.random() * 2);
+    var video_index = Math.floor(Math.random() * video_file.length);
 
 
     var color1 = Math.floor(Math.random() * 5);
@@ -22,9 +26,11 @@ function setup(){
     var close_video = document.getElementsByClassName('close-video');
     var popup = document.getElementsByClassName('popup');
     var popup_video = document.querySelectorAll('.popup-video video');
-    
+    var book_name = document.getElementsByClassName('video-title');
+
     popup_video[0].setAttribute('src', 'vids/'+video_file[video_index]);
-    
+    book_name[0].innerHTML = video_title[video_index];
+
 
     close_video[0].addEventListener('click', function() {
 
@@ -57,7 +63,7 @@ function setup(){
         bookShelf[counter].style.backgroundColor = 'red';
       }else{
         bookLinks[counter].setAttribute('href', links[counter]);
-        bookShelf[counter].style.backgroundColor = 'lightgreen';  
+        bookShelf[counter].style.backgroundColor = 'lightgreen';
       }
       counter++;
   });
